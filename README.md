@@ -8,3 +8,5 @@ To resolve the IP based rate limit, the client data collection code runs in its 
 
 The database access issue was resolved by creating a queue and submitting data to be saved to the database via the queue. The queue would process data to be saved at a rate that does not overload the database. 
 
+## Worker Nodes
+The worker node implementation is now proprietary since my trading algorithm actually relies on it. Reach out to me at my [website](https://mateoreyrosa.com) if you would like some high level details about how this is done. 
